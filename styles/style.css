@@ -1,0 +1,139 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: grid;
+  align-content: center;
+  font-family: "Outfit", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ffff;
+  font-size: 10px;
+  padding: 10px 0 10px 0;
+}
+main {
+  color: hsl(30, 10%, 34%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+section {
+  margin: 25px 0 25px 0;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+hr {
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  border: none;
+}
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 26px;
+  font-family: "Young Serif", "Times New Roman", Times, serif;
+  color: hsl(14, 45%, 36%);
+}
+p {
+  font-size: 16px;
+}
+li {
+  margin: 10px 0 10px 0;
+  padding-left: 10px;
+}
+ul,
+ol {
+  margin-inline-start: -15px;
+}
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.mark > li::marker {
+  color: hsl(14, 45%, 36%);
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 15px 0 15px 0;
+}
+.preparation h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.containerNutrition {
+  width: 100%;
+  padding: 10px;
+}
+.nutrition {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.nutrition > span {
+  text-align: left;
+  width: 100px;
+}
+.nutri {
+  margin: 0 30px;
+}
+.valor {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+@media (width <= 767px) {
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  img {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .container{
+    padding: 0 30px;
+  }
+}
